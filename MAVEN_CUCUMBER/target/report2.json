@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Perform Search flights with valid fields",
+        "description": "",
+        "id": "cleartrip-flights-functionality;perform-search-flights-with-valid-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 168465600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be in flights page",
+            "match": {
+              "location": "Flights.user_should_be_in_flights_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters valid fields and submit",
+            "match": {
+              "location": "Flights.user_enters_valid_fields_and_submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should navigate to list of fields",
+            "match": {
+              "location": "Flights.user_should_navigate_to_list_of_fields()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Perform Search flights with invalid fields",
+        "description": "",
+        "id": "cleartrip-flights-functionality;perform-search-flights-with-invalid-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 337600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be in flights page",
+            "match": {
+              "location": "Flights.user_should_be_in_flights_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters invalid fields and submit",
+            "match": {
+              "location": "Flights.user_enters_invalid_fields_and_submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User get error message",
+            "match": {
+              "location": "Flights.user_get_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cleartrip Flights functionality",
+    "description": "",
+    "id": "cleartrip-flights-functionality",
+    "keyword": "Feature",
+    "uri": "sample.feature"
+  }
+]

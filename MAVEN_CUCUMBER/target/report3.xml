@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.16936">
+<testcase classname="Cleartrip Flights functionality" name="Perform Search flights with valid fields" time="0.168699">
+<system-out><![CDATA[Given User should be in flights page........................................passed
+When User enters valid fields and submit....................................passed
+Then User should navigate to list of fields.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Cleartrip Flights functionality" name="Perform Search flights with invalid fields" time="0.000661">
+<system-out><![CDATA[Given User should be in flights page........................................passed
+When User enters invalid fields and submit..................................passed
+Then User get error message.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
