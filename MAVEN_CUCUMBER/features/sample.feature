@@ -12,6 +12,6 @@ Feature: Cleartrip Flights functionality
   
     Given User should be in flights page
     When User enters invalid fields and submit
-    Then User get error messages
+    Then User get error message
 
  
